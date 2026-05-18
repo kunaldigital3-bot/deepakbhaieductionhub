@@ -8,6 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '4370960433149704');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4370960433149704&ev=PageView&noscript=1"
+    /></noscript>
     <style>
         * {
             margin: 0;
@@ -81,27 +96,27 @@
             margin-bottom: 25px;
         }
 
-        /* Telegram Buttons */
+        /* Updated Telegram Buttons (Darker & Brighter Green) */
         .btn-telegram {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 8px;
-            background-color: #4ade80;
+            background-color: #00E65B; /* Vibrant Solid Green */
             color: #000000;
             text-decoration: none;
             font-size: 16px;
-            font-weight: 700;
+            font-weight: 800; /* Extra bold text for high contrast */
             padding: 16px 20px;
             border-radius: 12px;
             margin: 15px 0;
             transition: transform 0.2s ease, background-color 0.2s ease;
-            box-shadow: 0px 4px 15px rgba(74, 222, 128, 0.3);
+            box-shadow: 0px 6px 20px rgba(0, 230, 91, 0.35);
         }
 
         .btn-telegram:hover {
             transform: scale(1.02);
-            background-color: #22c55e;
+            background-color: #00b344; /* Darker green on hover */
         }
 
         /* Proof/Trust Box */
